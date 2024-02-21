@@ -7,14 +7,14 @@ namespace AskForInput
         static void Main(string[] args)
         {
             // Peça ao utilizador para inserir um número inteiro
-            Console.Writeline("Insira um número inteiro: ");
+            Console.WriteLine("Insira um número inteiro: ");
             string inputInteiroInt = Console.ReadLine();
 
             // Convert string to int
             int i = int.Parse(inputInteiroInt);
 
             // Peça ao utilizador para insesir um número real
-            Console.Writeline("Insira um número real: ");
+            Console.WriteLine("Insira um número real: ");
             string inputRealInt = Console.ReadLine();
 
             // Convert string to float
