@@ -10,6 +10,8 @@ namespace AskForInput
             Console.Writeline("Insert a number: ");
             string inputInt = Console.ReadLine();
 
+            int i = int.Parse(inputInt)
+
         }
     }
 }
