@@ -25,7 +25,14 @@ namespace VariousTypes
             char char3 = '\u000f'; 
             char char4 = '\u0080'; 
 
-            Console.WriteLine($"chars: {char1}, {char2}, {char3}, {char4},");
+            Console.WriteLine($"chars: {char1}, {char2}, {char3}, {char4}");
+
+            //List of reais
+            float real1 = 3.14f;
+            double real2 = 2.71828;
+            decimal real3 = 123.456m;
+
+            Console.WriteLine($"Reais: {real1}, {real2}, {real3}");
         }
     }
 }
