@@ -14,6 +14,13 @@ namespace ManyStrings
 
             //Printing the values
             Console.WriteLine($"String 1: {str1}, {str2}, {str3}, {str4}");
+
+            //Concatenacao
+            string conca1 = "a" + 2;
+            int x = 5;
+            string conca2 = "abc" + x;
+
+            Console.WriteLine($"Concatenacoes: {conca1}, {conca2}");
         }
     }
 }
