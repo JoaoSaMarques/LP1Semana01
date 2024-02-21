@@ -6,7 +6,10 @@ namespace AskForInput
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            // Peça ao utilizador para inserir um número inteiro
+            Console.Writeline("Insert a number: ");
+            string inputInt = Console.ReadLine();
+
         }
     }
 }
