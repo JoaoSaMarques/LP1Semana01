@@ -33,6 +33,10 @@ namespace VariousTypes
             decimal real3 = 123.456m;
 
             Console.WriteLine($"Reais: {real1}, {real2}, {real3}");
+
+            //List of bools
+            bool bool1 = 5 > 3;
+            bool bool2 = false;
         }
     }
 }
