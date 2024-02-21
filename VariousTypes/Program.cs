@@ -37,6 +37,8 @@ namespace VariousTypes
             //List of bools
             bool bool1 = 5 > 3;
             bool bool2 = false;
+
+            Console.WriteLine($"Bools: {bool1}, {bool2}");
         }
     }
 }
