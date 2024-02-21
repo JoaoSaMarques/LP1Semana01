@@ -25,6 +25,7 @@ namespace VariousTypes
             char char3 = '\u000f'; 
             char char4 = '\u0080'; 
 
+            Console.WriteLine($"chars: {char1}, {char2}, {char3}, {char4},");
         }
     }
 }
