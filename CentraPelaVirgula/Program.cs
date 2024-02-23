@@ -34,8 +34,8 @@ namespace CentraPelaVirgula
 
             float d = float.Parse(RealFourth);
 
-            Console.WriteLine($"Nums:\n {a:f2}\n {b:f2}" +
-            $"\n {c:f2}\n {d:f2}");
+            Console.WriteLine($"Nums:\n {a,6:f2}\n {b,6:f2}" +
+            $"\n {c,6:f2}\n {d,6:f2}");
         }
     }
 }
