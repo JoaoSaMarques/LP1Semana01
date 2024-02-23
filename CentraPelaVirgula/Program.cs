@@ -13,6 +13,10 @@ namespace CentraPelaVirgula
             // Peça ao utilizador para insesir o segundo numero
             Console.WriteLine("Insira um segundo número real: ");
             string RealSecond = Console.ReadLine();
+
+            // Peça ao utilizador para insesir o segundo numero
+            Console.WriteLine("Insira um terceiro número real: ");
+            string RealThird = Console.ReadLine();
         }
     }
 }
