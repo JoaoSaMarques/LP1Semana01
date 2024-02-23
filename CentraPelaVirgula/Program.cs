@@ -26,8 +26,8 @@ namespace CentraPelaVirgula
             Console.WriteLine("Insira o quarto número real: ");
             string RealFourth = Console.ReadLine();
 
-            Console.WriteLine($"Nums:\n {RealFirst,8:F2}\n {RealSecond,8:F2}" +
-            $"\n {RealThird,8:F2}\n {RealFourth,8:F2}");
+            Console.WriteLine($"Nums:\n {RealFirst,6:F2}\n {RealSecond,6:F2}" +
+            $"\n {RealThird,6:F2}\n {RealFourth,6:F2}");
         }
     }
 }
