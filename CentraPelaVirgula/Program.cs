@@ -9,7 +9,7 @@ namespace CentraPelaVirgula
         {
             CultureInfo.DefaultThreadCurrentCulture =
                 CultureInfo . InvariantCulture ; 
-                
+
             // Peça ao utilizador para insesir um número real
             Console.WriteLine("Insira um número real: ");
             string RealFirst = Console.ReadLine();
@@ -26,8 +26,8 @@ namespace CentraPelaVirgula
             Console.WriteLine("Insira o quarto número real: ");
             string RealFourth = Console.ReadLine();
 
-            Console.WriteLine($"Numbers:\n {RealFirst}\n {RealSecond}" +
-            $"\n {RealThird}\n {RealFourth}");
+            Console.WriteLine($"Nums:\n {RealFirst,8:F2}\n {RealSecond,8:F2}" +
+            $"\n {RealThird,8:F2}\n {RealFourth,8:F2}");
         }
     }
 }
