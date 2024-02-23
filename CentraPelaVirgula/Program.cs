@@ -20,7 +20,10 @@ namespace CentraPelaVirgula
 
             // Peça ao utilizador para insesir o quarto numero
             Console.WriteLine("Insira o quarto número real: ");
-            string RealForth = Console.ReadLine();
+            string RealFourth = Console.ReadLine();
+
+            Console.WriteLine($"Numbers:\n {RealFirst}\n {RealSecond}" +
+            $"\n {RealThird}\n {RealFourth}");
         }
     }
 }
