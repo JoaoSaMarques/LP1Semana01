@@ -6,6 +6,10 @@ namespace ManyStrings
     {
         static void Main(string[] args)
         {
+            double xx = 1.23456;
+            int ii = 19;
+
+
             // Strings with escape characters
             string str1 = "Hello\tWorld!";  // Tab character
             string str2 = "Line 1\nLine 2";  // New line
