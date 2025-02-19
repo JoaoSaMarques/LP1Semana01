@@ -27,6 +27,10 @@ namespace ManyStrings
             // Variables for concatenation examples
             int num = 2;
             string text = "abc";
+
+            // Concatenation
+            string concat1 = "a" + num;  // "a" + 2
+            string concat2 = text + "x"; // "abc" + "x"
         }
     }
 }
