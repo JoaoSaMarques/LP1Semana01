@@ -6,7 +6,9 @@ namespace AskForInput
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP1!");
+            Console.WriteLine("Please input an integer number:");
+            string str = Console.ReadLine();
+
         }
     }
 }
