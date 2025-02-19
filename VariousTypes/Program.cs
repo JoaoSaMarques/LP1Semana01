@@ -8,10 +8,19 @@ namespace VariousTypes
         {
             int i = 10;
             uint j = 20;
-            double x = 0;
+            short x = 0;
+            long l = 35L;
+
+            Console.WriteLine(i);
+            Console.WriteLine(j);
+            Console.WriteLine(x);
+            Console.WriteLine(l);
 
             char copyrightSymbol = '\u00A9';
             char newLine = '\u000A';
+
+            Console.WriteLine(copyrightSymbol);
+            Console.WriteLine(newLine);
 
         }
     }
