@@ -9,6 +9,8 @@ namespace AskForInput
             Console.WriteLine("Please input an integer number:");
             string str = Console.ReadLine();
 
+            int i = int.Parse(str);
+
         }
     }
 }
