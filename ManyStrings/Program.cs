@@ -9,16 +9,24 @@ namespace ManyStrings
             double xx = 1.23456;
             int ii = 19;
 
+            // Print xx with specified formats
+            Console.WriteLine($"Número real com duas casas decimais: {xx:F2}");
+            Console.WriteLine($"Percentagem com uma casa decimal: {xx:P1}");
+
+            // Print ii with specified formats
+            Console.WriteLine($"Hexadecimal: {ii:X}");
+            Console.WriteLine($"Moeda: {ii:C}");
+
 
             // Strings with escape characters
-            string str1 = "Hello\tWorld!";  // Tab character
-            string str2 = "Line 1\nLine 2";  // New line
+            string str1 = "Hello\tWorld!"; // Tab character
+            string str2 = "Line 1\nLine 2"; // New line
             string str3 = "Path: C:\\Users\\";  // Backslash
             
             // Strings with Unicode characters
-            string str4 = "Euro symbol: \u20AC";  // Euro symbol
-            string str5 = "Smiley: \u263A";  // Smiley face
-            string str6 = "Japanese: \u3042\u3044\u3046";  // Japanese characters
+            string str4 = "Euro symbol: \u20AC"; // Euro symbol
+            string str5 = "Smiley: \u263A"; // Smiley face
+            string str6 = "Japanese: \u3042\u3044\u3046"; // Japanese character
             
             // Printing all strings
             Console.WriteLine(str1);
@@ -33,7 +41,7 @@ namespace ManyStrings
             string text = "abc";
 
             // Concatenation
-            string concat1 = "a" + num;  // "a" + 2
+            string concat1 = "a" + num; // "a" + 2
             string concat2 = text + "x"; // "abc" + "x"
 
             // Variables for interpolation 
