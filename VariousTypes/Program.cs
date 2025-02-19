@@ -9,6 +9,10 @@ namespace VariousTypes
             int i = 10;
             uint j = 20;
             double x = 0;
+
+            char copyrightSymbol = '\u00A9';
+            char newLine = '\u000A';
+
         }
     }
 }
