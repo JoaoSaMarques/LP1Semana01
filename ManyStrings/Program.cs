@@ -24,13 +24,21 @@ namespace ManyStrings
             Console.WriteLine(str5);
             Console.WriteLine(str6);
 
-            // Variables for concatenation examples
+            // Variables for concatenation 
             int num = 2;
             string text = "abc";
 
             // Concatenation
             string concat1 = "a" + num;  // "a" + 2
             string concat2 = text + "x"; // "abc" + "x"
+
+            // Variables for interpolation 
+            int x = 5;
+            int y = 10;
+            
+            // Interpolation 
+            string interp1 = $"O valor de x é {x}";
+            string interp2 = $"{x} mais {y} é igual a {x + y}";
         }
     }
 }
