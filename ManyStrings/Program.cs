@@ -23,6 +23,10 @@ namespace ManyStrings
             Console.WriteLine(str4);
             Console.WriteLine(str5);
             Console.WriteLine(str6);
+
+            // Variables for concatenation examples
+            int num = 2;
+            string text = "abc";
         }
     }
 }
