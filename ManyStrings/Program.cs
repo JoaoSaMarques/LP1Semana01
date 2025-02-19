@@ -39,6 +39,15 @@ namespace ManyStrings
             // Interpolation 
             string interp1 = $"O valor de x é {x}";
             string interp2 = $"{x} mais {y} é igual a {x + y}";
+
+            // Print all string values
+            Console.WriteLine("Concatenação:");
+            Console.WriteLine(concat1);
+            Console.WriteLine(concat2);
+            
+            Console.WriteLine("\nInterpolação:"); 
+            Console.WriteLine(interp1);
+            Console.WriteLine(interp2);
         }
     }
 }
