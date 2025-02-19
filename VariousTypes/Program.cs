@@ -33,6 +33,12 @@ namespace VariousTypes
             Console.WriteLine(d);
             Console.WriteLine(m);
 
+            // Boolean variables
+            bool isTrue = true;
+            bool isFalse = false;
+
+            Console.WriteLine(isTrue);
+            Console.WriteLine(isFalse);
         }
     }
 }
