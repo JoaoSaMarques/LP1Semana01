@@ -16,7 +16,9 @@ namespace AskForInput
 
             float f = float.Parse(str2);
 
-            Console.WriteLine(f + i);
+            float s = i + f;
+
+            Console.WriteLine(s);
 
         }
     }
