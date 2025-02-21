@@ -7,6 +7,8 @@ namespace Percentagem
     {
         private static void Main(string[] args)
         {
+            CultureInfo.DefaultThreadCurrentCulture = CultureInfo.InvariantCulture;
+
             Console.WriteLine("Please input 4 real numbers between 0 and 1:");
             string S1 = Console.ReadLine();
             string S2 = Console.ReadLine();
