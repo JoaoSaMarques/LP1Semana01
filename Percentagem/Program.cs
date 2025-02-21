@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace Percentagem
 {
@@ -17,10 +18,12 @@ namespace Percentagem
             float F3 = float.Parse(S3);
             float F4 = float.Parse(S4);
 
-            Console.WriteLine(F1);
-            Console.WriteLine(F2);
-            Console.WriteLine(F3);
-            Console.WriteLine(F4);
+            string result1 = F1.ToString("#0.##%");
+
+            Console.WriteLine(F1.ToString("P", CultureInfo.InvariantCulture));
+            Console.WriteLine(F2.ToString("P", CultureInfo.InvariantCulture));
+            Console.WriteLine(F3.ToString("P", CultureInfo.InvariantCulture));
+            Console.WriteLine(F4.ToString("P", CultureInfo.InvariantCulture));
 
         }
     }
