@@ -17,6 +17,11 @@ namespace Percentagem
             float F3 = float.Parse(S3);
             float F4 = float.Parse(S4);
 
+            Console.WriteLine(F1);
+            Console.WriteLine(F2);
+            Console.WriteLine(F3);
+            Console.WriteLine(F4);
+
         }
     }
 }
