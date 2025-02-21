@@ -20,10 +20,10 @@ namespace Percentagem
             float F3 = float.Parse(S3);
             float F4 = float.Parse(S4);
 
-            Console.WriteLine(F1.ToString("P2", CultureInfo.InvariantCulture));
-            Console.WriteLine(F2.ToString("P2", CultureInfo.InvariantCulture));
-            Console.WriteLine(F3.ToString("P2", CultureInfo.InvariantCulture));
-            Console.WriteLine(F4.ToString("P2", CultureInfo.InvariantCulture));
+            Console.WriteLine(F1.ToString("P2", CultureInfo.InvariantCulture).PadLeft(8));
+            Console.WriteLine(F2.ToString("P2", CultureInfo.InvariantCulture).PadLeft(8));
+            Console.WriteLine(F3.ToString("P2", CultureInfo.InvariantCulture).PadLeft(8));
+            Console.WriteLine(F4.ToString("P2", CultureInfo.InvariantCulture).PadLeft(8));
 
         }
     }
